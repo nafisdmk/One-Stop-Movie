@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:black;
+}
+.logo{
+    color: red;
+    font-size: 1.1rem;
+    font-weight:600 ;
+}
+.navbar{
+    /* color: white; */
+    display: flex;
+    column-gap: 120px;
+    
+}
+header{
+    display: flex; 
+    position: sticky;
+    /* position:fixed; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    padding-top: 0px;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    /* right: 5px; */
+    /* text-decoration: none; */
+}
+header a{
+    text-decoration: none;
+}
+.logo .bx {
+    font-size: 25px;
+    color:red;
+
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1 rem ;
+    font-weight: 400;
+    color: white;
+    content: "";
+    /* text-decoration: none; */
+    
+}
+.navbar a:hover{
+    color: red;
+    transform: 0.3s all linear;
+}
+.search{
+    
+    padding: 5px;
+      font-size: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      width: 200px;
+      padding-left: 7px;
+    
+}
+
+.search-button {
+    top: 50%;
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight:400 ;
+     font-size:15px ;
+     border-color: black;
+  }
+  .search-button:hover{
+    color: rgb(240, 109, 109);
+  }
+  .signout{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .searchitem{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(143, 12, 12);
+    padding-bottom: 20px;
+    width: 100%;
+
+  }
+  .movie-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .TV-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .displayArea{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .box:last-child{
+    margin-right: 0px;
+
+  }
+  .poster{
+    /* height: 300px; */
+    width: 200px;
+    height: 300px;
+
+  }
+  .poster:hover{
+    cursor: pointer;
+  }
+  .title{
+    font-size: 15px;
+    color:white;
+    padding-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    /* max-width: 200px; */
+    /* word-wrap:break-word; */
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+  .title:hover{
+    color: red;
+    cursor: pointer;
+  }
+  .genre{
+    color: white;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    /* max-width: 200px;
+    word-wrap: break-word; */
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+ .overview{
+  color: white;
+  background-color: rgb(204, 27, 27);
+  /* position: absolute; */
+ }
+ .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.posterDetail{
+  display:flex;
+  height: 300px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.titleDetail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+.watchlistIcon{
+  color: red;
+  font-size: 1.7rem;
+  font-weight: 600px;
+  font-weight:600 px;
+  
+  margin-right: 90px;
+}
+.ratingsIcons{
+  color: red;
+  font-size: 1.7rem;
+  
+}
+.icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bx{
+  font-size: 15px;
+}
+.rateicon i{
+  color: white;
+}
+.rateicon i.active{
+  color: red;
+}

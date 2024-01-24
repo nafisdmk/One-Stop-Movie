@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Ubuntu:wght@300&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    background-color:black;
+}
+.logo{
+    color: red;
+    font-size: 1.1rem;
+    font-weight:600 ;
+}
+.navbar{
+    /* color: white; */
+    display: flex;
+    column-gap: 120px;
+}
+header{
+    display: flex; 
+    /* position:fixed; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px; */
+    padding-top: 0px;
+    background-color: black;
+    top: 0px;
+    left: 0px;
+    /* right: 5px; */
+    /* text-decoration: none; */
+}
+header a{
+    text-decoration: none;
+}
+.logo .bx {
+    font-size: 25px;
+    color:red;
+
+}
+.navbar li{
+    position: relative;
+}
+.navbar a{
+    font-size: 1 rem ;
+    font-weight: 400;
+    color: white;
+    content: "";
+    /* text-decoration: none; */
+    
+}
+.navbar a:hover{
+    color: red;
+    transform: 0.3s all linear;
+}
+.signout{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .poster{
+    /* height: 300px; */
+    width: 200px;
+    height: 300px;
+
+  }
+  .title{
+    font-size: 15px;
+    color:white;
+    padding-top: 0px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+    /* max-width: 200px; */
+    /* word-wrap:break-word; */
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+  }
+  .movieBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Dhurjati&family=Ubuntu:wght@300&display=swap");
+* {
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.91);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login-box{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(202, 22, 22);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.instructions {
+  margin-top: 15px;
+}
+
+
